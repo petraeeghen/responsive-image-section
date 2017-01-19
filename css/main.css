@@ -41,7 +41,7 @@ a {
 
 h2 {
   font-size: 100%;
-  padding: 1em;
+  margin: 0em 1em 0em 1em;
 }
 
 img {
@@ -50,9 +50,10 @@ img {
 
 h1 {
   padding: .7em;
+  margin: 0em;
 }
 
 p {
-  padding: 1em;
+  margin: 0em 0em 1em 1em;
 }
 @media only screen and (min-width:)
