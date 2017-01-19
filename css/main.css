@@ -26,3 +26,26 @@ body {
 section {
   background-color: #e2e2e2;
 }
+
+.product{
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #555;
+  border-radius: 4px;
+  padding: .5em .75em;
+  margin: 1em;
+}
+
+img {
+  margin: 2em 0em;
+}
+
+h1 {
+  padding: .7em
+}
+
+
+@media only screen and (min-width:)
