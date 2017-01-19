@@ -39,13 +39,20 @@ a {
   margin: 1em;
 }
 
+h2 {
+  font-size: 100%;
+  padding: 1em;
+}
+
 img {
   margin: 2em 0em;
 }
 
 h1 {
-  padding: .7em
+  padding: .7em;
 }
 
-
+p {
+  padding: 1em;
+}
 @media only screen and (min-width:)
