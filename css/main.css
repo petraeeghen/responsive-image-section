@@ -52,6 +52,7 @@ h1 {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 div {
@@ -59,6 +60,14 @@ div {
 }
 p {
   margin: 0 0 1em 1em;
+}
+
+.product {
+    vertical-align: middle;
+}
+
+.photo {
+    vertical-align: middle;
 }
 
 @media only screen and (min-width: 25em){
