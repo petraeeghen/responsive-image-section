@@ -37,6 +37,10 @@ a {
   display: inline-block;
 }
 
+a:hover {
+  background-color: black;
+}
+
 h1 {
   padding-bottom: .7em;
   margin: 0;
