@@ -27,9 +27,6 @@ section {
   background-color: #e2e2e2;
 }
 
-.product{
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -41,28 +38,27 @@ a {
 
 strong {
   font-size: 100%;
-  margin: 0em 1em 0em 1em;
+  margin: 0 1em 0 1em;
 }
 
 img {
-  margin: 2em 0em;
-  width: 100%;
+  margin: 2em 0;
 }
 
 h1 {
   padding: .7em;
-  margin: 0em;
+  margin: 0;
 }
 
 .img-flex {
-
+  width: 100%;
 }
 
 div {
   display: inline-block;
 }
 p {
-  margin: 0em 0em 1em 1em;
+  margin: 0 0 1em 1em;
 }
 
 @media only screen and (min-width: 25em){
@@ -73,9 +69,28 @@ p {
   }
 }
 
-@@media only screen and (min-width: 38em) {
-  html{
+@media only screen and (min-width: 38em) {
 
+  .product, .photo {
+    width: 48%;
+  }
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  @media only screen and (min-width: 90em) {
+    html {
+      font-size: 130%;
+      line-height: 1.5;
+    }
   }
 
 }
