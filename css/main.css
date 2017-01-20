@@ -36,10 +36,10 @@ a {
   background-color: #555;
   border-radius: 4px;
   padding: .5em .75em;
-  margin: 1em 1em 1em 1em;
+  margin: 2em 1em 2em 1em;
 }
 
-h2 {
+strong {
   font-size: 100%;
   margin: 0em 1em 0em 1em;
 }
@@ -53,6 +53,12 @@ h1 {
   margin: 0em;
 }
 
+.img-flex {
+
+}
+div{
+  display: inline-block;
+}
 p {
   margin: 0em 0em 1em 1em;
 }
